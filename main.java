@@ -27,7 +27,7 @@ public class main {
                     ArrayOperations.showAverage(array);
                     break;
                 case 5:
-                    ArrayOperations.calculateOddEvenSums(array);
+                    ArrayOperations.calculateAverageDifference(array);
                     break;
                 case 6:
                     ArrayOperations.sumOfOddIndices(array);
