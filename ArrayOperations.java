@@ -21,12 +21,24 @@ public class ArrayOperations {
         System.out.println(result);
     }
 
-    public static void calculateAverageDifference(){
-
+    public static void calculateAverageDifference(int[] inputArray){
+        double average = showAverage(inputArray) ;
+        String s = "The differences from the average are: {";
+        for (int i = 0 ; i < inputArray.length ; i++){
+            s += inputArray[i] - average + ", ";
+        }
+        s = s.substring(0,s.length()-2) + "}" ;
+        System.out.println(s);
     }
 
-    public static void showAverage(){
-
+    public static double showAverage(int[] inputArray){
+        int sum = 0; 
+        for(int i = 0 ; i < inputArray.length ; i++){
+            sum += inputArray[i] ;
+        }
+        double average = sum / inputArray.length ;
+        System.out.println("Average of the integers in the list is " + average);
+        return average ;
     }
 
     public static void findMax (int [] array) {
