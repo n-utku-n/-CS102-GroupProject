@@ -2,6 +2,9 @@ import java.util.Random;
 
 public class ArrayOperations {
     public static int[] generateRandomArray(int size) {
+
+    public int[] generateArray(int size) {
+
       Random random = new Random();
       int[] array = new int[size]; 
       for (int i = 0; i < size; i++) {
@@ -10,8 +13,14 @@ public class ArrayOperations {
       return array; 
     }
 
-    public static void displayArray(){
+    public static void displayArray(int[] array){
+        String result = "";
 
+        for(int i = 0; i < array.length; i++){
+            result += array[i] + ", ";
+        }
+
+        System.out.println(result);
     }
 
     public static void calculateAverageDifference(){
