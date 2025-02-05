@@ -59,16 +59,7 @@ public class main {
         }
         return scanner.nextInt();
     }
-    
-    public static int[] generateArray(int size) {
-      Random random = new Random();
-      int[] array = new int[size]; 
-      for (int i = 0; i < size; i++) {
-        array[i] = random.nextInt(101); 
-      } 
-      return array; 
-    }
-    
+        
     public static int findMax (int [] array) {
         int max = Integer.MIN_VALUE;
         for (int i = 0; i < array.length ; i++){
