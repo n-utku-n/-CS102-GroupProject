@@ -53,27 +53,27 @@ public class main {
         }
         return scanner.nextInt();
     }
-    public class findMaxAndMin {
-        public static void findMax (int [] array) {
-            int max = Integer.MIN_VALUE;
-            for (int i = 0; i < array.length ; i++){
-                if (array [i] > max){
-                    max = array [i];
-                }
+
+    public static void findMax (int [] array) {
+        int max = Integer.MIN_VALUE;
+        for (int i = 0; i < array.length ; i++){
+            if (array [i] > max){
+                max = array [i];
             }
-            System.out.println("Maximum of the array: " + max);
         }
-        
-        public static void findMin (int [] array) {
-            int min = Integer.MAX_VALUE;
-            for (int i = 0; i < array.length ; i++){
-                if (array [i] < min){
-                    min = array [i];
-                }
-            }
-            System.out.println("Minimum of the array: " + min);
-            
-        }
+        System.out.println("Maximum of the array: " + max);
     }
+    
+    public static void findMin (int [] array) {
+        int min = Integer.MAX_VALUE;
+        for (int i = 0; i < array.length ; i++){
+            if (array [i] < min){
+                min = array [i];
+            }
+        }
+        System.out.println("Minimum of the array: " + min);
+
+    }
+
     
 }
