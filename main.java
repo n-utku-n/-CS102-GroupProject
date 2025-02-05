@@ -27,6 +27,12 @@ public class main {
                     ArrayOperations.calculateOddEvenSums(array);
                     break;
                 case 5:
+                    ArrayOperations.sumOfOddIndices(array);
+                    break;
+                case 6: 
+                    ArrayOperations.sumOfEvenIndices(array);
+                    break;
+                case 7:
                     System.out.println("Exiting the program...");
                     scanner.close();
                     return;
