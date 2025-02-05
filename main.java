@@ -72,6 +72,7 @@ public class main {
                 }
             }
             System.out.println("Minimum of the array: " + min);
+            
         }
     }
     
