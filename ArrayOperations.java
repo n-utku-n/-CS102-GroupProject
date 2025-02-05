@@ -1,9 +1,7 @@
 import java.util.Random;
 
 public class ArrayOperations {
-    public static int[] generateRandomArray(int size) {
-
-    public int[] generateArray(int size) {
+    public int[] generateRandomArray(int size) {
 
       Random random = new Random();
       int[] array = new int[size]; 
