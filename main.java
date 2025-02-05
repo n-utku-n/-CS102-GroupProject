@@ -21,7 +21,7 @@ public class main {
                     ArrayOperations.findMinMax(array);
                     break;
                 case 3:
-                    ArrayOperations.calculateAverageDifference(array);
+                    ArrayOperations.showAverage(array);
                     break;
                 case 4:
                     ArrayOperations.calculateOddEvenSums(array);
