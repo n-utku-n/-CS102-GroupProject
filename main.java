@@ -54,24 +54,24 @@ public class main {
         return scanner.nextInt();
     }
     public class findMaxAndMin {
-        public static int findMax (int [] array) {
+        public static void findMax (int [] array) {
             int max = Integer.MIN_VALUE;
             for (int i = 0; i < array.length ; i++){
                 if (array [i] > max){
                     max = array [i];
                 }
             }
-            return max;
+            System.out.println("Maximum of the array: " + max);
         }
         
-        public static int findMin (int [] array) {
+        public static void findMin (int [] array) {
             int min = Integer.MAX_VALUE;
             for (int i = 0; i < array.length ; i++){
                 if (array [i] < min){
                     min = array [i];
                 }
             }
-            return min;
+            System.out.println("Minimum of the array: " + min);
         }
     }
     
