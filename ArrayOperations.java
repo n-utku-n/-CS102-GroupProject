@@ -68,6 +68,8 @@ public class ArrayOperations {
         for(int i = 1; i < array.length; i += 2){
             sum += array[i];
         }
+
+        System.out.printf("Sum of odd indices is: %d", sum);
     }
 
     public static void sumOfEvenIndices(int[] array){
@@ -76,5 +78,7 @@ public class ArrayOperations {
         for(int i = 0; i < array.length; i += 2){
             sum += array[i];
         }
+
+        System.out.printf("Sum of even indices is: %d", sum);
     }
 }

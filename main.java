@@ -48,10 +48,13 @@ public class main {
     public static void displayMenu() {
         System.out.println("\nMenu:");
         System.out.println("1 - Display Array");
-        System.out.println("2 - Find Min & Max");
-        System.out.println("3 - Calculate Average & Differences");
-        System.out.println("4 - Find Sum of Odd and Even Indexed Elements");
-        System.out.println("5 - Exit");
+        System.out.println("2 - Find Min");
+        System.out.println("3 - Find Max");
+        System.out.println("4 - Show Average Value of the Array's Elements.");
+        System.out.println("5 - Show Difference Between Every Element and the Average Value.");
+        System.out.println("6 - Find Sum of Odd Indexed Elements");
+        System.out.println("7 - Find Sum of Odd Indexed Elements");
+        System.out.println("8 - Exit");
         System.out.print("Enter your choice: ");
     }
 
