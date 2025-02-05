@@ -1,7 +1,7 @@
 import java.util.Random;
 
 public class ArrayOperations {
-    public int[] generateArray(int size) {
+    public static int[] generateRandomArray(int size) {
       Random random = new Random();
       int[] array = new int[size]; 
       for (int i = 0; i < size; i++) {
@@ -10,22 +10,19 @@ public class ArrayOperations {
       return array; 
     }
 
-    public void generateRandomArray(){
+    public static void displayArray(){
 
     }
 
-    public void displayArray(){
+    public static void calculateAverageDifference(){
 
     }
 
-    public void calculateAverageDifference(){
+    public static void showAverage(){
 
     }
 
-    public void showAverage(){
-
-    }
-    public void findMax (int [] array) {
+    public static void findMax (int [] array) {
         int max = Integer.MIN_VALUE;
         for (int i = 0; i < array.length ; i++){
             if (array [i] > max){
@@ -35,7 +32,7 @@ public class ArrayOperations {
         System.out.println("Maximum of the array: " + max);
     }
     
-    public void findMin (int [] array) {
+    public static void findMin (int [] array) {
         int min = Integer.MAX_VALUE;
         for (int i = 0; i < array.length ; i++){
             if (array [i] < min){
@@ -46,7 +43,7 @@ public class ArrayOperations {
 
     }
 
-    public void sumOfOddIndices(int[] array){
+    public static void sumOfOddIndices(int[] array){
         int sum = 0;
         
         for(int i = 1; i < array.length; i += 2){
@@ -54,7 +51,7 @@ public class ArrayOperations {
         }
     }
 
-    public void sumOfEvenIndices(int[] array){
+    public static void sumOfEvenIndices(int[] array){
         int sum = 0;
         
         for(int i = 0; i < array.length; i += 2){

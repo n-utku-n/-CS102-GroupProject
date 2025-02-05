@@ -18,21 +18,24 @@ public class main {
                     ArrayOperations.displayArray(array);
                     break;
                 case 2:
-                    ArrayOperations.findMinMax(array);
+                    ArrayOperations.findMin(array);
                     break;
                 case 3:
-                    ArrayOperations.showAverage(array);
+                    ArrayOperations.findMax(array);
                     break;
                 case 4:
-                    ArrayOperations.calculateOddEvenSums(array);
+                    ArrayOperations.showAverage(array);
                     break;
                 case 5:
+                    ArrayOperations.calculateOddEvenSums(array);
+                    break;
+                case 6:
                     ArrayOperations.sumOfOddIndices(array);
                     break;
-                case 6: 
+                case 7: 
                     ArrayOperations.sumOfEvenIndices(array);
                     break;
-                case 7:
+                case 8:
                     System.out.println("Exiting the program...");
                     scanner.close();
                     return;
