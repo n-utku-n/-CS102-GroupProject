@@ -48,6 +48,5 @@ public class ArrayOperations {
             }
         }
         System.out.println("Minimum of the array: " + min);
-
     }
 }
