@@ -27,4 +27,24 @@ public class ArrayOperations {
     public int sumOfEvenIndices(){
 
     }
+    public static void findMax (int [] array) {
+        int max = Integer.MIN_VALUE;
+        for (int i = 0; i < array.length ; i++){
+            if (array [i] > max){
+                max = array [i];
+            }
+        }
+        System.out.println("Maximum of the array: " + max);
+    }
+    
+    public static void findMin (int [] array) {
+        int min = Integer.MAX_VALUE;
+        for (int i = 0; i < array.length ; i++){
+            if (array [i] < min){
+                min = array [i];
+            }
+        }
+        System.out.println("Minimum of the array: " + min);
+
+    }
 }
